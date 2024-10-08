@@ -11,6 +11,9 @@ app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname,'views'));
 
 app.get('/',(req,res) => {
+    res.render('home')
+})
+app.get('/index', (req,res) => {
     res.render('website/index')
 })
 app.use(express.static(path.join(__dirname,'public')));
