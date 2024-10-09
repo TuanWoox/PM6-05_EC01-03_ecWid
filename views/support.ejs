@@ -1,0 +1,156 @@
+<% layout('layouts/boilerplate') -%>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <h1>Hỗ trợ khách hàng</h1>
+        </div>
+    </div>
+    
+    <!-- Wrapper to ensure the button and the collapse content are aligned -->
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-auto" style="width: 80%;">
+            <!-- Button to trigger collapse for Registration Support -->
+            <button class="btn btn-light text-start d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegistration" aria-expanded="false" aria-controls="collapseRegistration" style="width: 100%;">
+                <span class="h5">Hỗ Trợ Đăng Ký Khóa Học</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill mt-2" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+
+            <!-- Collapsible content for Registration Support -->
+            <div class="collapse mt-1" id="collapseRegistration">
+                <div class="card card-body text-start">
+                    <span>
+                        <strong style="font-size: 20px;">Hướng dẫn đăng ký:</strong> Đội ngũ tư vấn luôn sẵn sàng hỗ trợ khách hàng trong việc lựa chọn và đăng ký khóa học phù hợp. Hướng dẫn chi tiết về cách thanh toán và truy cập khóa học sẽ được gửi ngay sau khi đăng ký.
+                    </span>
+                    <br>
+                    <span>
+                        <strong style="font-size: 20px;">Tư vấn khóa học: </strong>Nếu bạn gặp khó khăn trong việc lựa chọn khóa học, hãy liên hệ với chúng tôi qua hotline hoặc email để được tư vấn miễn phí.
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center my-2">
+        <div class="col-auto" style="width: 80%;">
+            <!-- Button to trigger collapse for Technical Support -->
+            <button class="btn btn-light text-start d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTechnical" aria-expanded="false" aria-controls="collapseTechnical" style="width: 100%;">
+                <span class="h5">Hỗ Trợ Kỹ Thuật</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill mt-2" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+
+            <!-- Collapsible content for Technical Support -->
+            <div class="collapse mt-1" id="collapseTechnical">
+                <div class="card card-body text-start">
+                    <span>
+                        <strong style="font-size: 20px;">Truy cập khóa học:</strong> Nếu bạn gặp bất kỳ vấn đề nào liên quan đến việc truy cập tài khoản hoặc khóa học, hãy liên hệ với đội ngũ kỹ thuật để được hỗ trợ ngay lập tức.
+                    </span>
+                    <br>
+                    <span>
+                        <strong style="font-size: 20px;">Chất lượng video:</strong> Trong trường hợp video khóa học không rõ nét hoặc gặp vấn đề về âm thanh, vui lòng thông báo cho chúng tôi để kiểm tra và khắc phục sớm nhất.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-2">
+        <div class="col-auto" style="width: 80%;">
+            <!-- Button to trigger collapse for Technical Support -->
+            <button class="btn btn-light text-start d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#refund" aria-expanded="false" aria-controls="collapseTechnical" style="width: 100%;">
+                <span class="h5">Chính Sách Đổi Trả Khóa Học</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill mt-2" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+
+            <!-- Collapsible content for Technical Support -->
+            <div class="collapse mt-1" id="refund">
+                <div class="card card-body text-start">
+                    <span>
+                        <strong style="font-size: 20px;">Đổi khóa học:</strong> Trong vòng 7 ngày kể từ khi thanh toán, nếu bạn cảm thấy khóa học không phù hợp, bạn có thể yêu cầu đổi sang một khóa học khác tương đương giá trị. Điều kiện áp dụng là khóa học chưa được hoàn thành hơn 20%.
+                    </span>
+                    <br>
+                    <span>
+                        <strong style="font-size: 20px;">Hoàn tiền:</strong> Chúng tôi cam kết hoàn tiền 100% trong vòng 7 ngày kể từ khi đăng ký, nếu khóa học chưa được học quá 10% nội dung và bạn không hài lòng với chất lượng.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-2">
+        <div class="col-auto" style="width: 80%;">
+            <!-- Button to trigger collapse for Technical Support -->
+            <button class="btn btn-light text-start d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#supportafter" aria-expanded="false" aria-controls="collapseTechnical" style="width: 100%;">
+                <span class="h5">Hỗ Trợ Sau Khóa Học</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill mt-2" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+
+            <!-- Collapsible content for Technical Support -->
+            <div class="collapse mt-1" id="supportafter">
+                <div class="card card-body text-start">
+                    <span>
+                        <strong style="font-size: 20px;">Tài liệu học tập: </strong> Tất cả học viên sau khi hoàn thành khóa học sẽ nhận được tài liệu và công thức độc quyền từ giảng viên, giúp bạn ôn luyện và thực hành tại nhà.
+                    </span>
+                    <br>
+                    <span>
+                        <strong style="font-size: 20px;">Tư vấn sau khóa học:</strong> Sau khi hoàn thành khóa học, nếu bạn có bất kỳ thắc mắc nào về kỹ thuật làm bánh, hãy liên hệ với chúng tôi qua email hoặc diễn đàn học viên để được giải đáp.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-2">
+        <div class="col-auto" style="width: 80%;">
+            <!-- Button to trigger collapse for Technical Support -->
+            <button class="btn btn-light text-start d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#calltogetsupported" aria-expanded="false" aria-controls="collapseTechnical" style="width: 100%;">
+                <span class="h5">Liên Hệ Hỗ Trợ</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill mt-2" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+
+            <!-- Collapsible content for Technical Support -->
+            <div class="collapse mt-1" id="calltogetsupported">
+                <div class="card card-body text-start">
+                    <span style="font-size: 20px;">
+                        <strong>Hotline:</strong> 1900 123 456 (Hỗ trợ từ 8:00 - 22:00, thứ 2 đến thứ 7).
+                    </span>
+                    <br>
+                    <span style="font-size: 20px;">
+                        <strong>Email hỗ trợ:</strong> hotro@banhngon.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-2">
+        <div class="col-auto" style="width: 80%;">
+            <!-- Button to trigger collapse for Technical Support -->
+            <button class="btn btn-light text-start d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#servicequality" aria-expanded="false" aria-controls="collapseTechnical" style="width: 100%;">
+                <span class="h5">Cam Kết Về Chất Lượng Dịch Vụ</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill mt-2" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+
+            <!-- Collapsible content for Technical Support -->
+            <div class="collapse mt-1" id="servicequality">
+                <div class="card card-body text-start">
+                    <span style="font-size: 20px;">
+                        Chúng tôi luôn nỗ lực nâng cao chất lượng dịch vụ để đáp ứng tốt nhất nhu cầu học tập của bạn. Mọi ý kiến đóng góp từ học viên đều được chúng tôi ghi nhận và xử lý trong vòng 48 giờ.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+

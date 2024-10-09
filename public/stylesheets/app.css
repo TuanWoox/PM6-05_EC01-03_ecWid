@@ -5,3 +5,10 @@
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+.customer-service-hyperlink {
+    color: white;
+    text-decoration: none;
+}
+.customer-service-hyperlink:hover {
+    color: blue;
+}

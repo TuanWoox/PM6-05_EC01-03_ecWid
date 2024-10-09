@@ -16,6 +16,9 @@ app.get('/',(req,res) => {
 app.get('/index', (req,res) => {
     res.render('website/index')
 })
+app.get('/support', (req,res) => {
+    res.render('support')
+})
 app.use(express.static(path.join(__dirname,'public')));
 
 
